@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &-6940201831545727416
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4467238960474451351}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.891965, y: 8.625672, z: 1}
+  m_Center: {x: -0.22454023, y: 3.8128362, z: 0}
+--- !u!195 &4589146719225530830
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4467238960474451351}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &4661633877608424533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4467238960474451351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee6d5ed259115b4480a9edc71946dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyMonster: Oso
+  moveSpots: []
+  playerIsInLOS: 0
+  fieldOfViewAngle: 160
+  losRadius: 45
+  memoryStartime: 10
+  noiseTravelDistance: 50
+  spinSpeed: 3
+  spinTime: 3
+  distToPlayer: 5
+  t_minStrafe: 0
+  t_maxStrafe: 0
+  strafeRight: {fileID: 0}
+  strafeLeft: {fileID: 0}
+  chaseRadius: 20
+  facePlayerFactor: 20
+  startWaitTime: 1
+--- !u!1001 &5683330785651864734
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: b0c13639acd2a5547ab61b0463067db2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.924301
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b0c13639acd2a5547ab61b0463067db2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.175
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b0c13639acd2a5547ab61b0463067db2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -28.386345
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b0c13639acd2a5547ab61b0463067db2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b0c13639acd2a5547ab61b0463067db2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b0c13639acd2a5547ab61b0463067db2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b0c13639acd2a5547ab61b0463067db2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b0c13639acd2a5547ab61b0463067db2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b0c13639acd2a5547ab61b0463067db2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b0c13639acd2a5547ab61b0463067db2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b0c13639acd2a5547ab61b0463067db2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b0c13639acd2a5547ab61b0463067db2,
+        type: 3}
+      propertyPath: m_Name
+      value: oso Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b0c13639acd2a5547ab61b0463067db2, type: 3}
+--- !u!1 &4467238960474451351 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: b0c13639acd2a5547ab61b0463067db2,
+    type: 3}
+  m_PrefabInstance: {fileID: 5683330785651864734}
+  m_PrefabAsset: {fileID: 0}
